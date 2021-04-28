@@ -285,6 +285,7 @@ func (le *LeaderElector) renew(ctx context.Context) {
 		cancel()
 	}, le.config.RetryPeriod, ctx.Done())
 
+	klog.Infof("MINCHIA nisciiiiii!")
 	// if we hold the lease, give it up
 	if le.config.ReleaseOnCancel {
 		le.release()
