@@ -435,6 +435,8 @@ k8s.io/api v0.0.0-20210417155159-648b77825832 h1:No2ZlATFo1sNHtuP1p7SIWTkq5cYeyB
 k8s.io/api v0.0.0-20210417155159-648b77825832/go.mod h1:1rKdGusR4MnUa1eIY/WzLvM2oeduZr38Mmsgdft/2xg=
 k8s.io/apimachinery v0.0.0-20210417144234-8daf28983e6e h1:fjczwJMl+07DTfpVAqAfprBYXxSMgsqpjVXfzaEa8k4=
 k8s.io/apimachinery v0.0.0-20210417144234-8daf28983e6e/go.mod h1:CRK4uy8GKqwLtMa4Gj9i/B2EBjcqOsuvwP2xZJWUwmk=
+k8s.io/client-go v0.21.0 h1:n0zzzJsAQmJngpC0IhgFcApZyoGXPrDIAD601HD09ag=
+k8s.io/client-go v0.21.0/go.mod h1:nNBytTF9qPFDEhoqgEPaarobC8QPae13bElIVHzIglA=
 k8s.io/gengo v0.0.0-20200413195148-3a45101e95ac/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog/v2 v2.0.0/go.mod h1:PBfzABfn139FHAV07az/IF9Wp1bkk3vpT2XSJ76fSDE=
 k8s.io/klog/v2 v2.8.0 h1:Q3gmuM9hKEjefWFFYF0Mat+YyFJvsUyYuwyNNJ5C9Ts=
@@ -447,6 +449,7 @@ rsc.io/binaryregexp v0.2.0/go.mod h1:qTv7/COck+e2FymRvadv62gMdZztPaShugOCi3I+8D8
 rsc.io/quote/v3 v3.1.0/go.mod h1:yEA65RcK8LyAZtP9Kv3t0HmxON59tX3rD+tICJqUlj0=
 rsc.io/sampler v1.3.0/go.mod h1:T1hPZKmBbMNahiBKFy5HrXp6adAjACjK9JXDnKaTXpA=
 sigs.k8s.io/structured-merge-diff/v4 v4.0.2/go.mod h1:bJZC9H9iH24zzfZ/41RGcq60oK1F7G282QMXDPYydCw=
+sigs.k8s.io/structured-merge-diff/v4 v4.1.0/go.mod h1:bJZC9H9iH24zzfZ/41RGcq60oK1F7G282QMXDPYydCw=
 sigs.k8s.io/structured-merge-diff/v4 v4.1.1 h1:nYqY2A6oy37sKLYuSBXuQhbj4JVclzJK13BOIvJG5XU=
 sigs.k8s.io/structured-merge-diff/v4 v4.1.1/go.mod h1:bJZC9H9iH24zzfZ/41RGcq60oK1F7G282QMXDPYydCw=
 sigs.k8s.io/yaml v1.2.0 h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=

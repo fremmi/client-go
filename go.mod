@@ -5,7 +5,6 @@ module github.com/fremmi/client-go
 go 1.16
 
 require (
-	cloud.google.com/go v0.54.0 // indirect
 	github.com/Azure/go-autorest/autorest v0.11.12
 	github.com/Azure/go-autorest/autorest/adal v0.9.5
 	github.com/davecgh/go-spew v1.1.1
@@ -22,13 +21,13 @@ require (
 	github.com/peterbourgon/diskv v2.0.1+incompatible
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.6.1
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83 // indirect
 	golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	k8s.io/api v0.0.0-20210417155159-648b77825832
-	k8s.io/apimachinery v0.0.0-20210417144234-8daf28983e6e
+	k8s.io/api v0.21.0
+	k8s.io/apimachinery v0.21.0
+	k8s.io/client-go v0.21.0
 	k8s.io/klog/v2 v2.8.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 	sigs.k8s.io/structured-merge-diff/v4 v4.1.1
