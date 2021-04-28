@@ -266,6 +266,7 @@ func (le *LeaderElector) renew(ctx context.Context) {
 	ctx, cancel := context.WithCancel(ctx)
 	defer cancel()
 	wait.Until(func() {
+		klog.Infof("MINCHIA renew")
 		timeoutCtx, timeoutCancel := context.WithTimeout(ctx, le.config.RenewDeadline)
 		defer timeoutCancel()
 		err := wait.PollImmediateUntil(le.config.RetryPeriod, func() (bool, error) {
@@ -275,7 +276,7 @@ func (le *LeaderElector) renew(ctx context.Context) {
 		le.maybeReportTransition()
 		desc := le.config.Lock.Describe()
 		if err == nil {
-			klog.V(5).Infof("successfully renewed lease %v", desc)
+			klog.Infof("successfully renewed lease %v", desc)
 			return
 		}
 		le.config.Lock.RecordEvent("stopped leading")
